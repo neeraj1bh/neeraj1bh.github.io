@@ -3,11 +3,131 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="robots" content="index,follow" />
-    <link rel="icon" href="/icons/icon.ico" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/icon.ico" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Personal Website and Portfolio" />
     <title>Neeraj Bhatt</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header class="main-head">
+      <nav>
+        <div class="logo">
+          <img src="./assets/code.svg" alt="logo" />
+          <h1>NB</h1>
+        </div>
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SKILLS</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="#">EXPERIENCE</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="intro">
+      <div class="intro-text">
+        <div class="profile-pic">
+          <a href="#"><img src="./assets/profilepic.jpg" alt="Image"/></a>
+        </div>
+        <h2>
+          Hi! I'm
+          <img class="speaker" src="./assets/speaker.svg" onclick="play()" />
+          Neeraj Bhatt
+        </h2>
+        <div class="intro-social">
+          <ul>
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/github-1.svg" alt="Github"
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/linkedin-1.svg" alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img src="./assets/gmail-1.svg" alt="Gmail"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <audio id="neerajbhatt" src="assets/neerajbhatt.mp3"></audio>
+    </section>
+    <section id="about">
+      <div class="details">
+        <a href="#">
+          <img src="./assets/aboutme.svg" alt="Aboutme" />
+        </a>
+        <p class="summary">
+          I'm a <span id="age"></span>-year-old avid coder, who likes to learn
+          new technologies, and to automate boring stuff.
+        </p>
+        <p class="summary">
+          I graduated with a Bachelors & I'm pursuing a Masters (Class of 2021)
+          in Computer Science from Pune University, meanwhile working for Capita
+          as a Customer Service Rep.
+        </p>
+        <p class="summary">
+          I am also a deep follower of Data structures and Algorithms and love
+          to solve real world problems using code.
+        </p>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="proficient">
+        <h1>Proficient</h1>
+        <ul>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>C++</li>
+          <li>Algorithms</li>
+          <li>Data Structures</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+      <div class="familiar">
+        <h1>Familiar</h1>
+        <ul>
+          <li>Android</li>
+          <li>Machine Learning</li>
+          <li>MySQL</li>
+          <li>Java</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+      <div class="technologies">
+        <h1>Technologies</h1>
+        <ul>
+          <li>Django</li>
+          <li>Flask</li>
+          <li>MongoDB</li>
+          <li>Tkinter</li>
+        </ul>
+      </div>
+    </section>
+    <!-- scripts -->
+    <script src="main.js"></script>
+    <script>
+      window.onload = () => {
+        const birthdate = new Date("01/07/1997");
+        const currentdate = new Date();
+        const age =
+          (currentdate.getTime() - birthdate.getTime()) /
+          (1000 * 3600 * 24 * 365);
+        const actualage = Math.floor(age);
+        document.getElementById("age").innerText = `${actualage}`;
+      };
+    </script>
   </body>
 </html>
