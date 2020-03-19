@@ -14,31 +14,47 @@
     <title>Neeraj Bhatt</title>
   </head>
   <body>
-    <header class="main-head">
+    <header id="home">
       <nav>
         <div class="logo">
           <img src="./assets/code.svg" alt="logo" />
           <h1>NB</h1>
         </div>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SKILLS</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">EXPERIENCE</a></li>
-          <li><a href="#">CONTACT</a></li>
+        <ul class="nav-links">
+          <li class="tophome"><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
       </nav>
     </header>
-    <section id="intro">
+    <section
+      id="intro"
+      style="background-image: url(../assets/abroadinjapan.jpg);"
+    >
       <div class="intro-text">
         <div class="profile-pic">
           <a href="#"><img src="./assets/profilepic.jpg" alt="Image"/></a>
         </div>
-        <h1>
-          Hi! I'm
+        <h2>
           <img class="speaker" src="./assets/speaker.svg" onclick="play()" />
           Neeraj Bhatt
-        </h1>
+        </h2>
+        <div class="switch-wrapper">
+          <div class="sun"></div>
+          <div class="toggle-wrapper">
+            <input id="switch" type="checkbox" onclick="myFunction()" />
+            <label for="switch" id="toggle">Toggle</label>
+          </div>
+          <div class="moon"></div>
+        </div>
+        <a class="viewcv" href="">View CV</a>
         <div class="intro-social">
           <ul>
             <li>
@@ -61,145 +77,184 @@
       </div>
       <audio id="neerajbhatt" src="assets/neerajbhatt.mp3"></audio>
     </section>
-    <section id="about">
-      <div class="details">
-        <div class="aboutlogo">
-          <a href="#">
-            <img src="./assets/aboutme.svg" alt="Aboutme" />
-          </a>
+    <section id="about-skills">
+      <div id="about">
+        <div class="heads1"><h1>About</h1></div>
+        <div class="details">
+          <p class="summary">
+            I'm a <span id="age"></span>-year-old avid coder, who likes to learn
+            new technologies, and to automate boring stuff.
+          </p>
+          <p class="summary">
+            I graduated with a Bachelors & I'm pursuing a Masters (Class of
+            2021) in Computer Science from Pune University, meanwhile working
+            for Capita as a Customer Service Rep.
+          </p>
+          <p class="summary">
+            I am also a deep follower of Data structures and Algorithms and love
+            to solve real world problems using code.
+          </p>
         </div>
-        <p class="summary">
-          I'm a <span id="age"></span>-year-old avid coder, who likes to learn
-          new technologies, and to automate boring stuff.
-        </p>
-        <p class="summary">
-          I graduated with a Bachelors & I'm pursuing a Masters (Class of 2021)
-          in Computer Science from Pune University, meanwhile working for Capita
-          as a Customer Service Rep.
-        </p>
-        <p class="summary">
-          I am also a deep follower of Data structures and Algorithms and love
-          to solve real world problems using code.
-        </p>
       </div>
-    </section>
-    <section id="skills">
-      <img src="./assets/skillsbackground.jpg" alt="" />
-      <div class="allskills">
-        <div class="titles">
-          <h1 class="heading">Proficient</h1>
+      <div id="skills">
+        <div class="heads2"><h1>Skills</h1></div>
+        <div class="allskills">
+          <div class="titles">
+            <h1 class="heading">Proficient</h1>
+          </div>
+          <ul>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>C++</li>
+            <li>Algorithms</li>
+            <li>Data Structures</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Linux</li>
+          </ul>
         </div>
-        <ul>
-          <li>Python</li>
-          <li>Javascript</li>
-          <li>C++</li>
-          <li>Algorithms</li>
-          <li>Data Structures</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Git</li>
-          <li>Linux</li>
-        </ul>
-      </div>
-      <div class="allskills">
-        <div class="titles">
-          <h1 class="heading">Familiar</h1>
+        <div class="allskills">
+          <div class="titles">
+            <h1 class="heading">Familiar</h1>
+          </div>
+          <ul>
+            <li>Android</li>
+            <li>Machine Learning</li>
+            <li>MySQL</li>
+            <li>Java</li>
+            <li>PHP</li>
+          </ul>
         </div>
-        <ul>
-          <li>Android</li>
-          <li>Machine Learning</li>
-          <li>MySQL</li>
-          <li>Java</li>
-          <li>PHP</li>
-        </ul>
-      </div>
-      <div class="allskills">
-        <div class="titles">
-          <h1 class="heading">Technologies</h1>
+        <div class="allskills">
+          <div class="titles">
+            <h1 class="heading">Technologies</h1>
+          </div>
+          <ul>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>MongoDB</li>
+            <li>Tkinter</li>
+          </ul>
         </div>
-        <ul>
-          <li>Django</li>
-          <li>Flask</li>
-          <li>MongoDB</li>
-          <li>Tkinter</li>
-        </ul>
       </div>
     </section>
     <section id="projects">
-      <div class="allprojects">
-        <div class="svgresize">
-          <h1>Portfolio Website</h1>
-          <a
-            href="https://github.com/neeraj1bh/neeraj1bh.github.io"
-            target="_blank"
-          >
-            <img src="./assets/projectwebsite.svg" alt="Portfolio Website" />
-          </a>
+      <div class="heads3"><h1>Projects</h1></div>
+      <div class="allprojectscomb">
+        <div class="allprojects">
+          <div class="svgresize">
+            <h1>Portfolio Website</h1>
+            <a
+              href="https://github.com/neeraj1bh/neeraj1bh.github.io"
+              target="_blank"
+            >
+              <img src="./assets/projectwebsite.svg" alt="Portfolio Website" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="allprojects">
-        <div class="svgresize">
-          <h1>Django Blog</h1>
-          <a href="https://github.com/neeraj1bh/Django-Blog" target="_blank">
-            <img src="./assets/projectblog.svg" alt="Django Blog" />
-          </a>
+        <div class="allprojects">
+          <div class="svgresize">
+            <h1>Django Blog</h1>
+            <a href="https://github.com/neeraj1bh/Django-Blog" target="_blank">
+              <img src="./assets/projectblog.svg" alt="Django Blog" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="allprojects">
-        <div class="svgresize">
-          <h1>News Notifier</h1>
-          <a href="https://github.com/neeraj1bh/News-Notifier" target="_blank">
-            <img src="./assets/projectnews.svg" alt="News Notifier" />
-          </a>
+        <div class="allprojects">
+          <div class="svgresize">
+            <h1>News Notifier</h1>
+            <a
+              href="https://github.com/neeraj1bh/News-Notifier"
+              target="_blank"
+            >
+              <img src="./assets/projectnews.svg" alt="News Notifier" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="allprojects">
-        <div class="svgresize">
-          <h1>Video Downloader</h1>
-          <a
-            href="https://github.com/neeraj1bh/Youtube-Downloader"
-            target="_blank"
-          >
-            <img src="./assets/projectvideo.svg" alt="Video Downloader" />
-          </a>
+        <div class="allprojects">
+          <div class="svgresize">
+            <h1>Video Downloader</h1>
+            <a
+              href="https://github.com/neeraj1bh/Youtube-Downloader"
+              target="_blank"
+            >
+              <img src="./assets/projectvideo.svg" alt="Video Downloader" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="allprojects">
-        <div class="svgresize">
-          <h1>Password Vault</h1>
-          <a href="https://github.com/neeraj1bh/Password-Vault" target="_blank">
-            <img src="./assets/projectpassword.svg" alt="Password Vault" />
-          </a>
+        <div class="allprojects">
+          <div class="svgresize">
+            <h1>Password Vault</h1>
+            <a
+              href="https://github.com/neeraj1bh/Password-Vault"
+              target="_blank"
+            >
+              <img src="./assets/projectpassword.svg" alt="Password Vault" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="allprojects">
-        <div class="svgresize">
-          <h1>CleanUp</h1>
-          <a href="https://github.com/neeraj1bh/CleanUp" target="_blank">
-            <img src="./assets/projectclean.svg" alt="CleanUp" />
-          </a>
+        <div class="allprojects">
+          <div class="svgresize">
+            <h1>CleanUp</h1>
+            <a href="https://github.com/neeraj1bh/CleanUp" target="_blank">
+              <img src="./assets/projectclean.svg" alt="CleanUp" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="allprojects">
-        <div class="svgresize">
-          <h1>ScraPy</h1>
-          <a href="https://github.com/neeraj1bh/ScraPy" target="_blank">
-            <img src="./assets/projectscra.svg" alt="ScraPy" />
-          </a>
+        <div class="allprojects">
+          <div class="svgresize">
+            <h1>ScraPy</h1>
+            <a href="https://github.com/neeraj1bh/ScraPy" target="_blank">
+              <img src="./assets/projectscra.svg" alt="ScraPy" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
+    <section id="contact">
+      <div class="form-wrapper">
+        <form action="">
+          <header class="form-head">
+            <h1>Contact me</h1>
+          </header>
+          <div class="name-form">
+            <input type="text" name="name" placeholder="Name" required />
+          </div>
+          <div class="email-form">
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="text-area">
+            <textarea
+              name="message"
+              placeholder="Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-wrapper">
+        &copy &nbsp; Neeraj Bhatt &nbsp; <span id="year"></span>
+      </div>
+    </footer>
     <!-- scripts -->
     <script src="main.js"></script>
     <script>
       window.onload = () => {
         const birthdate = new Date("01/07/1997");
         const currentdate = new Date();
+        var d = new Date();
+        const year = currentdate.getFullYear();
         const age =
           (currentdate.getTime() - birthdate.getTime()) /
           (1000 * 3600 * 24 * 365);
         const actualage = Math.floor(age);
         document.getElementById("age").innerText = `${actualage}`;
+        document.getElementById("year").innerText = `${year}`;
       };
     </script>
   </body>
