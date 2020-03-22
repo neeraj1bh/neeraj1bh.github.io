@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="robots" content="index,follow" />
-    <link rel="icon" href="./assets/icon.ico" />
+    <link rel="icon" href="./assets/icon.png" type="image/icon type" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,8 +21,7 @@
     <header id="home">
       <nav>
         <div class="logo">
-          <img src="./assets/code.svg" alt="logo" />
-          <h1>NB</h1>
+          <a href="https://www.neerajbhatt.live"> <h1>NB</h1></a>
         </div>
         <ul class="nav-links">
           <li class="tophome"><a href="#home">Home</a></li>
@@ -34,10 +37,7 @@
         </div>
       </nav>
     </header>
-    <section
-      id="intro"
-      style="background-image: url(../assets/abroadinjapan.jpg);"
-    >
+    <section id="intro" style="">
       <div class="intro-text">
         <div class="profile-pic">
           <a href="#"><img src="./assets/profilepic.jpg" alt="Image"/></a>
@@ -54,22 +54,25 @@
           </div>
           <div class="moon"></div>
         </div>
-        <a class="viewcv" href="">View CV</a>
+        <p><a href="" target="_blank" class="arrow-link">View My Resume</a></p>
         <div class="intro-social">
           <ul>
             <li>
-              <a href="#" target="_blank"
-                ><img src="./assets/github-1.svg" alt="Github"
+              <a href="https://github.com/neeraj1bh" target="_blank"
+                ><img src="./assets/github-1.svg" alt="Github" title="Github"
               /></a>
             </li>
             <li>
-              <a href="#" target="_blank"
-                ><img src="./assets/linkedin-1.svg" alt="Linkedin"
+              <a href="https://www.linkedin.com/in/neeraj1bh/" target="_blank"
+                ><img
+                  src="./assets/linkedin-1.svg"
+                  alt="Linkedin"
+                  title="LinkedIn"
               /></a>
             </li>
             <li>
-              <a href="#" target="_blank"
-                ><img src="./assets/gmail-1.svg" alt="Gmail"
+              <a href="mailto:neeraj1bh@gmail.com" target="_blank"
+                ><img src="./assets/gmail-1.svg" alt="Gmail" title="Gmail"
               /></a>
             </li>
           </ul>
@@ -140,106 +143,104 @@
       </div>
     </section>
     <section id="projects">
-      <div class="heads3"><h1>Projects</h1></div>
+      <div class="heads3">Projects</div>
       <div class="allprojectscomb">
         <div class="allprojects">
-          <div class="svgresize">
-            <h1>Portfolio Website</h1>
-            <a
-              href="https://github.com/neeraj1bh/neeraj1bh.github.io"
-              target="_blank"
-            >
-              <img src="./assets/projectwebsite.svg" alt="Portfolio Website" />
-            </a>
+          <a
+            href="https://github.com/neeraj1bh/neeraj1bh.github.io"
+            target="_blank"
+          />
+          <img src="./assets/projectwebsite.svg" alt="Portfolio Website" />
+          <div class="content">
+            <div class="text">
+              <h4>Portfolio Website</h4>
+              My Portfolio Website
+            </div>
           </div>
         </div>
         <div class="allprojects">
-          <div class="svgresize">
-            <h1>Django Blog</h1>
-            <a href="https://github.com/neeraj1bh/Django-Blog" target="_blank">
-              <img src="./assets/projectblog.svg" alt="Django Blog" />
-            </a>
+          <a href="https://github.com/neeraj1bh/Django-Blog" target="_blank" />
+          <img src="./assets/projectblog.svg" alt="Django Blog" />
+          <div class="content">
+            <div class="text"><h4>Django Blog</h4></div>
           </div>
         </div>
         <div class="allprojects">
-          <div class="svgresize">
-            <h1>News Notifier</h1>
-            <a
-              href="https://github.com/neeraj1bh/News-Notifier"
-              target="_blank"
-            >
-              <img src="./assets/projectnews.svg" alt="News Notifier" />
-            </a>
+          <a
+            href="https://github.com/neeraj1bh/News-Notifier"
+            target="_blank"
+          />
+          <img src="./assets/projectnews.svg" alt="News Notifier" />
+          <div class="content">
+            <div class="text"><h4>News Notifier</h4></div>
           </div>
         </div>
         <div class="allprojects">
-          <div class="svgresize">
-            <h1>Video Downloader</h1>
-            <a
-              href="https://github.com/neeraj1bh/Youtube-Downloader"
-              target="_blank"
-            >
-              <img src="./assets/projectvideo.svg" alt="Video Downloader" />
-            </a>
+          <a
+            href="https://github.com/neeraj1bh/Youtube-Downloader"
+            target="_blank"
+          />
+          <img src="./assets/projectvideo.svg" alt="Video Downloader" />
+          <div class="content">
+            <div class="text"><h4>Video Downloader</h4></div>
           </div>
         </div>
         <div class="allprojects">
-          <div class="svgresize">
-            <h1>Password Vault</h1>
-            <a
-              href="https://github.com/neeraj1bh/Password-Vault"
-              target="_blank"
-            >
-              <img src="./assets/projectpassword.svg" alt="Password Vault" />
-            </a>
+          <a
+            href="https://github.com/neeraj1bh/Password-Vault"
+            target="_blank"
+          />
+          <img src="./assets/projectpassword.svg" alt="Password Vault" />
+          <div class="content">
+            <div class="text"><h4>Password Vault</h4></div>
           </div>
         </div>
         <div class="allprojects">
-          <div class="svgresize">
-            <h1>CleanUp</h1>
-            <a href="https://github.com/neeraj1bh/CleanUp" target="_blank">
-              <img src="./assets/projectclean.svg" alt="CleanUp" />
-            </a>
+          <a href="https://github.com/neeraj1bh/CleanUp" target="_blank" />
+          <img src="./assets/projectclean.svg" alt="CleanUp" />
+          <div class="content">
+            <div class="text"><h4>CleanUp</h4></div>
           </div>
         </div>
         <div class="allprojects">
-          <div class="svgresize">
-            <h1>ScraPy</h1>
-            <a href="https://github.com/neeraj1bh/ScraPy" target="_blank">
-              <img src="./assets/projectscra.svg" alt="ScraPy" />
-            </a>
+          <a href="https://github.com/neeraj1bh/ScraPy" target="_blank" />
+          <img src="./assets/projectscra.svg" alt="ScraPy" />
+          <div class="content">
+            <div class="text"><h4>ScraPy</h4></div>
           </div>
         </div>
       </div>
     </section>
+    <a class="block-btn" href="https://github.com/neeraj1bh" target="_blank">
+      <span class="text"><h4>See more projects</h4></span>
+      <img class="icon" src="./assets/github-1b.svg" alt="github" />
+    </a>
     <section id="contact">
-      <div class="form-wrapper">
-        <form action="">
-          <header class="form-head">
-            <h1>Contact me</h1>
-          </header>
-          <div class="name-form">
-            <input type="text" name="name" placeholder="Name" required />
-          </div>
-          <div class="email-form">
-            <input type="email" name="email" placeholder="Email" required />
-          </div>
-          <div class="text-area">
-            <textarea
-              name="message"
-              placeholder="Message"
-              cols="30"
-              rows="10"
-            ></textarea>
-          </div>
-          <button type="submit">Submit</button>
-        </form>
+      <div class="email-icon">
+        <img src="./assets/email.svg" alt="Email Icon" />
+      </div>
+      <div class="message">
+        <h2>Get In Touch!</h2>
+        <p>
+          Although I'm not currently looking for freelance opportunities, but my
+          inbox is always open.
+          <br />Whether you have an idea for a project or just want to chat,
+          feel free to shoot me an email!
+        </p>
+        <p style="margin-top:40px;">
+          <a id="email-button" href="mailto:neeraj1bh@gmail.com" target="_blank"
+            >Say Hello</a
+          >
+        </p>
       </div>
     </section>
     <footer>
       <div class="footer-wrapper">
         &copy &nbsp; Neeraj Bhatt &nbsp; <span id="year"></span>
       </div>
+      <button onclick="scrolltoTop()" id="scrollBtn">
+        <img src="./assets/pointing-up.png" alt="" />
+      </button>
     </footer>
     <!-- scripts -->
     <script src="main.js"></script>
@@ -257,5 +258,18 @@
         document.getElementById("year").innerText = `${year}`;
       };
     </script>
+    <!-- *********************************************
+         _   _              _   _                   _
+        | | | | ___ _   _  | |_| |__   ___ _ __ ___| |
+        | |_| |/ _ \ | | | | __| '_ \ / _ \ '__/ _ \ |
+        |  _  |  __/ |_| | | |_| | | |  __/ | |  __/_|
+        |_| |_|\___|\__, |  \__|_| |_|\___|_|  \___(_)
+                    |___/
+        Lookin' at the source code huh?
+        Be sure to drop me a line! I'd love to chat,
+        whether it's about code, design, gaming,
+        ML or AI, or anything in between.
+        - Neeraj
+        ********************************************** -->
   </body>
 </html>
