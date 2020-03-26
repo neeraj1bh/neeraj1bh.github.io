@@ -583,24 +583,28 @@ html.night .switch-wrapper .moon {
   height: 100%;
   width: 100%;
   position: absolute;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 1.5rem;
 }
 
 #projects .allprojectscomb .allprojects:hover .content .text {
-  height: 100px;
-  width: 100px;
+  height: 180px;
+  width: 200px;
   position: absolute;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -10rem;
   top: 50%;
-  margin-top: -50px;
+  margin-top: -10rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 #projects .allprojectscomb .allprojects:hover .content .text h4 {
-  border-bottom: 0.3rem solid;
+  background: white;
+  border-radius: 1rem;
+  color: black;
+  padding: 0.5rem;
+  margin: 0 0 1rem 0;
 }
 
 .block-btn {
@@ -1081,10 +1085,21 @@ footer #scrollBtn:hover {
   background: #1b2d53;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 994px) {
   html {
-    font-size: 45%;
+    font-size: 55%;
     scroll-behavior: smooth;
+  }
+  html #projects .allprojectscomb .allprojects:hover .content .text {
+    left: 45%;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  #contact {
+    width: 90%;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */
