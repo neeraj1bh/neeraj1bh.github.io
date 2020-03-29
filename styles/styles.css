@@ -90,6 +90,7 @@ html.night {
 }
 
 #home nav {
+  padding: 1.5rem;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,19 +106,14 @@ html.night {
       -ms-flex-direction: row;
           flex-direction: row;
   z-index: 2;
-  width: 95%;
+  width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-#home nav .logo {
-  margin-left: 3.2rem;
 }
 
 #home nav .logo h1 {
   font-size: 4rem;
   font-family: "Nemoy";
-  margin: 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -499,14 +495,13 @@ html.night .switch-wrapper .moon {
 /*@import "about";
 @import "skills";*/
 #projects {
-  padding: 4rem;
+  margin-top: 7rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -528,14 +523,15 @@ html.night .switch-wrapper .moon {
 }
 
 #projects .allprojectscomb {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 10rem;
-          flex: 1 1 10rem;
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 10rem;
+          flex: 5 1 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -545,15 +541,15 @@ html.night .switch-wrapper .moon {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 5rem 0;
 }
 
 #projects .allprojectscomb .allprojects {
-  position: relative;
   padding: 0;
   height: 25rem;
   width: 25rem;
   margin: 3rem;
-  padding: 3rem;
+  padding: 5rem;
   cursor: pointer;
   overflow: hidden;
 }
@@ -563,12 +559,16 @@ html.night .switch-wrapper .moon {
   transition: all 1s;
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 #projects .allprojectscomb .allprojects .content {
   opacity: 0;
+}
+
+#projects .allprojectscomb .allprojects:hover {
+  position: relative;
 }
 
 #projects .allprojectscomb .allprojects:hover img {
@@ -588,7 +588,6 @@ html.night .switch-wrapper .moon {
 }
 
 #projects .allprojectscomb .allprojects:hover .content .text {
-  height: 180px;
   width: 200px;
   position: absolute;
   left: 50%;
@@ -710,10 +709,7 @@ html.night .switch-wrapper .moon {
 }
 
 #contact .email-icon {
-  margin: 7rem 0rem 0rem 0rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 0px;
-          flex: 1 1 0;
+  margin: 2rem 0rem;
 }
 
 #contact .email-icon img {
@@ -722,22 +718,6 @@ html.night .switch-wrapper .moon {
 }
 
 #contact .message {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 0px;
-          flex: 2 1 0;
   text-align: center;
   margin-bottom: 10rem;
 }
@@ -908,8 +888,8 @@ footer #scrollBtn:hover {
 }
 
 #home nav .nav-open {
-  -webkit-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -webkit-transform: translateX(-15%);
+          transform: translateX(-15%);
 }
 
 #home nav .toggle .line1 {
@@ -983,8 +963,9 @@ footer #scrollBtn:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1060,11 +1041,6 @@ footer #scrollBtn:hover {
           flex: 2 1 10rem;
 }
 
-#skills .titles h1 {
-  /*color: #202122;*/
-  margin-bottom: 2rem;
-}
-
 #skills .titles .heading {
   position: relative;
   display: inline-block;
@@ -1100,6 +1076,19 @@ footer #scrollBtn:hover {
   #contact {
     width: 90%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html #home .nav-open {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  html #projects {
+    margin-top: 3rem;
+  }
+  html #projects .allprojectscomb {
+    margin-top: 0rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
