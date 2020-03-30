@@ -552,6 +552,9 @@ html.night .switch-wrapper .moon {
   padding: 5rem;
   cursor: pointer;
   overflow: hidden;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 #projects .allprojectscomb .allprojects img {
@@ -625,8 +628,8 @@ html.night .switch-wrapper .moon {
 .block-btn:focus,
 .block-btn:hover {
   background: #00b7c7;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .block-btn:focus .text,
@@ -977,7 +980,7 @@ footer #scrollBtn:hover {
 
 #about .details p {
   text-align: center;
-  margin: 4rem;
+  margin: 2rem;
   width: 90%;
 }
 
