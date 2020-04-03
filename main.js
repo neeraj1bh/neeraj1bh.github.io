@@ -1,9 +1,5 @@
 // Burger
 
-function play() {
-  document.getElementById("neerajbhatt").play();
-}
-
 const nav = document.querySelector(".nav-links");
 const burger = document.querySelector(".burger");
 const links = nav.querySelectorAll("a");
