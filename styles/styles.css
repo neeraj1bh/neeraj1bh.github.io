@@ -89,6 +89,11 @@ html.night {
   src: url("../assets/fonts/nemoy.light.ttf");
 }
 
+@font-face {
+  font-family: "Proxima";
+  src: url("../assets/fonts/proximanova-light-webfont.woff");
+}
+
 #home nav {
   padding: 1.5rem;
   position: fixed;
@@ -232,7 +237,9 @@ html.night {
 
 #intro h2 {
   padding: 0.5rem;
-  font-size: 3.5rem;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Proxima";
 }
 
 #intro ul {
@@ -515,7 +522,7 @@ html.night .switch-wrapper .moon {
 }
 
 #projects .heads3 {
-  margin: 0.1rem;
+  margin-top: 3rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 10rem;
           flex: 1 1 10rem;
@@ -979,8 +986,9 @@ footer #scrollBtn:hover {
 }
 
 #about .details p {
+  font-size: 1.8rem;
   text-align: center;
-  margin: 2rem;
+  margin: 3.3rem;
   width: 90%;
 }
 
