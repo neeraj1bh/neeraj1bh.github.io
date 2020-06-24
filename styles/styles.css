@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -101,27 +101,27 @@ html.night {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   z-index: 2;
   width: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #home nav .logo h1 {
   font-size: 4rem;
   font-family: "Nemoy";
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /*#home nav {
@@ -145,21 +145,21 @@ html.night {
   background-size: cover;
   background-position: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   /*resume location*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 #intro .switch-wrapper {
@@ -168,17 +168,17 @@ html.night {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
   margin: 2rem 0.2rem;
   right: 0rem;
@@ -200,8 +200,8 @@ html.night {
 #intro .arrow-link {
   position: absolute;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 2rem 0.5rem;
   right: 0rem;
   bottom: 0rem;
@@ -232,7 +232,7 @@ html.night {
 
 #intro .arrow-link:hover:after {
   -webkit-transform: translateX(7px);
-          transform: translateX(7px);
+  transform: translateX(7px);
 }
 
 #intro h2 {
@@ -248,14 +248,14 @@ html.night {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 #intro ul li img {
@@ -266,12 +266,12 @@ html.night {
 
 #intro ul li img:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 p a {
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-          animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes neon2 {
@@ -311,7 +311,7 @@ p a {
 
 .speaker:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*
@@ -375,15 +375,15 @@ p a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .profile-pic a {
@@ -405,12 +405,12 @@ p a {
 
 .profile-pic a:hover img {
   -webkit-transform: scale(1.06, 1.06);
-          transform: scale(1.06, 1.06);
+  transform: scale(1.06, 1.06);
 }
 
 .profile-pic a:hover:before {
   -webkit-animation: none;
-          animation: none;
+  animation: none;
 }
 
 /* Sun Moon*/
@@ -508,46 +508,46 @@ html.night .switch-wrapper .moon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   min-height: 100vh;
 }
 
 #projects .heads3 {
   margin-top: 3rem;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 10rem;
-          flex: 1 1 10rem;
+  -ms-flex: 1 1 10rem;
+  flex: 1 1 10rem;
   font-size: 5rem;
 }
 
 #projects .allprojectscomb {
   -webkit-box-flex: 5;
-      -ms-flex: 5 1 10rem;
-          flex: 5 1 10rem;
+  -ms-flex: 5 1 10rem;
+  flex: 5 1 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 5rem 0;
 }
 
@@ -560,15 +560,16 @@ html.night .switch-wrapper .moon {
   cursor: pointer;
   overflow: hidden;
   border-radius: 1.5rem;
-  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1),
+    0px 20px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 #projects .allprojectscomb .allprojects img {
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
   width: 90%;
   height: 90%;
 }
@@ -583,7 +584,7 @@ html.night .switch-wrapper .moon {
 
 #projects .allprojectscomb .allprojects:hover img {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #projects .allprojectscomb .allprojects:hover .content {
@@ -644,7 +645,7 @@ html.night .switch-wrapper .moon {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translate3D(0, 4em, 0) scale(0.25);
-          transform: translate3D(0, 4em, 0) scale(0.25);
+  transform: translate3D(0, 4em, 0) scale(0.25);
 }
 
 .block-btn:focus .icon,
@@ -652,7 +653,7 @@ html.night .switch-wrapper .moon {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translate3D(0, 0, 0) scale(1);
-          transform: translate3D(0, 0, 0) scale(1);
+  transform: translate3D(0, 0, 0) scale(1);
 }
 
 .block-btn .icon,
@@ -668,12 +669,17 @@ html.night .switch-wrapper .moon {
   margin: 20px auto;
   opacity: 1;
   visibility: visible;
-  -webkit-transition: opacity 0.13333s linear, -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
-  transition: opacity 0.13333s linear, -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
-  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215), opacity 0.13333s linear;
-  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215), opacity 0.13333s linear, -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
+  -webkit-transition: opacity 0.13333s linear,
+    -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
+  transition: opacity 0.13333s linear,
+    -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
+  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215),
+    opacity 0.13333s linear;
+  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215),
+    opacity 0.13333s linear,
+    -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .block-btn .icon {
@@ -681,12 +687,17 @@ html.night .switch-wrapper .moon {
   margin: 20px auto;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity 0.4s linear, -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
-  transition: opacity 0.4s linear, -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
-  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215), opacity 0.4s linear;
-  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215), opacity 0.4s linear, -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
+  -webkit-transition: opacity 0.4s linear,
+    -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
+  transition: opacity 0.4s linear,
+    -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
+  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215),
+    opacity 0.4s linear;
+  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215),
+    opacity 0.4s linear,
+    -webkit-transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215);
   -webkit-transform: translate3D(0, -4em, 0) scale(0);
-          transform: translate3D(0, -4em, 0) scale(0);
+  transform: translate3D(0, -4em, 0) scale(0);
 }
 
 .block-btn .icon,
@@ -703,19 +714,19 @@ html.night .switch-wrapper .moon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #contact .email-icon {
@@ -761,8 +772,8 @@ footer .footer-wrapper {
   width: 90%;
   margin: auto;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-height: 10vh;
   font-size: 1.5rem;
 }
@@ -791,7 +802,7 @@ footer #scrollBtn img {
 
 footer #scrollBtn:hover {
   -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 /*min-height: 100vh;
@@ -877,8 +888,8 @@ footer #scrollBtn:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-transition: -webkit-transform 1s ease;
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
@@ -899,12 +910,12 @@ footer #scrollBtn:hover {
 
 #home nav .nav-open {
   -webkit-transform: translateX(-15%);
-          transform: translateX(-15%);
+  transform: translateX(-15%);
 }
 
 #home nav .toggle .line1 {
   -webkit-transform: rotateZ(45deg) translateY(300%);
-          transform: rotateZ(45deg) translateY(300%);
+  transform: rotateZ(45deg) translateY(300%);
   background: white;
 }
 
@@ -914,7 +925,7 @@ footer #scrollBtn:hover {
 
 #home nav .toggle .line3 {
   -webkit-transform: rotateZ(-45deg) translateY(-300%);
-          transform: rotateZ(-45deg) translateY(-300%);
+  transform: rotateZ(-45deg) translateY(-300%);
   background: white;
 }
 
@@ -923,19 +934,19 @@ footer #scrollBtn:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   min-height: 100vh;
   position: relative;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #about {
@@ -943,46 +954,46 @@ footer #scrollBtn:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 50rem;
-          flex: 1 1 50rem;
+  -ms-flex: 1 1 50rem;
+  flex: 1 1 50rem;
   min-height: 100vh;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #about .heads1 {
   margin-top: 2rem;
   -webkit-box-flex: 0.1;
-      -ms-flex: 0.1 1 10rem;
-          flex: 0.1 1 10rem;
+  -ms-flex: 0.1 1 10rem;
+  flex: 0.1 1 10rem;
 }
 
 #about .details {
   -webkit-box-flex: 2;
-      -ms-flex: 2 1 10rem;
-          flex: 2 1 10rem;
+  -ms-flex: 2 1 10rem;
+  flex: 2 1 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 #about .details p {
@@ -997,20 +1008,20 @@ footer #scrollBtn:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 50rem;
-          flex: 1 1 50rem;
+  -ms-flex: 1 1 50rem;
+  flex: 1 1 50rem;
   min-height: 100vh;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #skills ul li {
@@ -1028,8 +1039,8 @@ footer #scrollBtn:hover {
 #skills .heads2 {
   margin-top: 2rem;
   -webkit-box-flex: 0.1;
-      -ms-flex: 0.1 1 10rem;
-          flex: 0.1 1 10rem;
+  -ms-flex: 0.1 1 10rem;
+  flex: 0.1 1 10rem;
 }
 
 #skills .allskills {
@@ -1037,19 +1048,19 @@ footer #scrollBtn:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   -webkit-box-flex: 2;
-      -ms-flex: 2 1 10rem;
-          flex: 2 1 10rem;
+  -ms-flex: 2 1 10rem;
+  flex: 2 1 10rem;
 }
 
 #skills .titles .heading {
@@ -1093,7 +1104,7 @@ footer #scrollBtn:hover {
 @media screen and (max-width: 640px) {
   html #home .nav-open {
     -webkit-transform: translateX(-30%);
-            transform: translateX(-30%);
+    transform: translateX(-30%);
   }
   html #projects {
     margin-top: 3rem;
