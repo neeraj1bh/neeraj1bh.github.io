@@ -1,2 +1,7 @@
 # Temporary files
 raw files/
+
+/assets/backgrounds
+
+# VSCode config files
+.vscode
